@@ -1,0 +1,18 @@
+{
+  "name": "planejador-bncc-backend",
+  "version": "1.0.0",
+  "description": "Backend seguro para pagamentos via Mercado Pago — Planejador BNCC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mercadopago": "^2.0.15"
+  }
+}
