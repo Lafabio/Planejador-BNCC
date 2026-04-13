@@ -2208,7 +2208,7 @@ function fazerLogin(){
 
 function loginProfessor(professor){
   PROFESSOR_ATUAL=professor;
-  IS_ADMIN=(professor.email==='admin@planejador.com');
+  IS_ADMIN=(professor.email==='admin@planejador.com'||professor.email==='lafaietep@hotmail.com');
   
   document.getElementById('authOverlay').classList.remove('open');
   document.getElementById('perfilBadge').style.display='inline-block';
@@ -2418,6 +2418,27 @@ function salvarChaveGemini(){adminSalvarChave();}
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded',function(){
   filterSkills();
+  
+  // Criar usuário admin padrão se não existir
+  var professores=getProfessores();
+  var adminExiste=professores.find(function(p){return p.email==='lafaietep@hotmail.com';});
+  if(!adminExiste){
+    professores.push({
+      id:1,
+      nome:'Lafaiete Erkmann',
+      email:'lafaietep@hotmail.com',
+      senha:btoa('Lilica10#'),
+      disciplina:'Administração',
+      escola:'Sistema',
+      cidade:'Admin',
+      dataCadastro:new Date().toISOString(),
+      planosSalvos:0,
+      isAdmin:true
+    });
+    setProfessores(professores);
+    console.log('✅ Usuário admin criado: lafaietep@hotmail.com');
+  }
+  
   var sessaoSalva=localStorage.getItem('bncc_sessao_atual');
   if(sessaoSalva){
     try{
