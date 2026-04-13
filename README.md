@@ -8,7 +8,7 @@
 
 É **PROIBIDA** a cópia, distribuição, modificação ou uso comercial deste software sem autorização expressa por escrito do autor. Violações serão perseguidas legalmente conforme Lei nº 9.609/98 (Lei de Software).
 
-Para licenciamento: [seu-email@dominio.com]
+Para licenciamento: prog.lafa@gmail.com
 
 ---
 
@@ -127,7 +127,7 @@ Pacotes disponíveis:
 ## 📞 Suporte
 
 Para dúvidas técnicas ou licenciamento:
-- Email: [seu-email@dominio.com]
+- Email: prog.lafa@gmail.com
 - WhatsApp: [(XX) XXXXX-XXXX]
 
 ---

@@ -33,14 +33,14 @@ Edite estes arquivos com seus dados reais:
 
 **README.md** (linhas 11, 130-131):
 ```
-Para licenciamento: seu-email@dominio.com
-Email: seu-email@dominio.com
+Para licenciamento: prog.lafa@gmail.com
+Email: prog.lafa@gmail.com
 WhatsApp: (XX) XXXXX-XXXX
 ```
 
 **LICENSE** (linha 22):
 ```
-Contato para licenciamento / Licensing contact: seu-email@dominio.com
+Contato para licenciamento / Licensing contact: prog.lafa@gmail.com
 ```
 
 ### 3. Testar Fluxo de Pagamento

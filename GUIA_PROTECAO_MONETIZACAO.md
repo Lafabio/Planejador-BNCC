@@ -297,7 +297,7 @@ ngrok http 3000
 
 Adicione no `LICENSE`:
 ```
-Contato para licenciamento: seu-email@dominio.com
+Contato para licenciamento: prog.lafa@gmail.com
 WhatsApp: (XX) XXXXX-XXXX
 Site: www.seusite.com.br
 ```

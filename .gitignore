@@ -1,1 +1,1 @@
-Nothing should be ignored in this case, as the changes only include source/config files (.md, .json) and not build artifacts, dependencies, or temporary files.
+Nothing should be ignored since only source/config files (.md and LICENSE) were modified.
