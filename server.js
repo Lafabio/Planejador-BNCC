@@ -27,7 +27,7 @@ const { MercadoPagoConfig, Preference, Payment } = require('mercadopago');
 
 // ── Configuração (via variáveis de ambiente) ───────────────────────────────────
 const MP_ACCESS_TOKEN = process.env.MP_ACCESS_TOKEN || '';
-const FRONTEND_URL    = (process.env.FRONTEND_URL  || 'http://localhost').replace(/\/+$/, '');
+const FRONTEND_URL = (process.env.FRONTEND_URL || process.env.URL_FRONTEND || 'http://localhost').replace(/\/+$/, '');
 const WEBHOOK_SECRET  = process.env.WEBHOOK_SECRET || '';
 const PORT            = parseInt(process.env.PORT) || 3000;
 
