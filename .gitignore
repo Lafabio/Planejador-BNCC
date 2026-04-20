@@ -1,3 +1,1 @@
-node_modules/
-.env
-*.log
+Nothing should be ignored since only source/config files (.md and LICENSE) were modified.
